@@ -1,4 +1,46 @@
-# Getting Started with Create React App
+# Day 8 - Stopwatch App
+
+## Activity Overview
+
+### Task:
+- Build a functional stopwatch app using React JS to master state management, event handling, and lifecycle methods.
+
+### Goals:
+- **State Management:** Learn how to manage component state effectively in React.
+- **Event Handling:** Handle user interactions, such as button clicks, to control the stopwatch.
+- **Lifecycle Methods:** Use React lifecycle methods to manage the timer interval and component mounting/unmounting.
+
+### Steps:
+1. **Set Up React Environment:** Initialize a React app using `create-react-app` or any preferred setup.
+2. **Create `Stopwatch` Component:** Develop the core component to handle the stopwatch functionality.
+3. **Build Features:**
+   - Display the elapsed time in the format mm:ss.
+   - Implement Start, Stop, and Reset buttons.
+   - Manage state to handle the elapsed time.
+   - Handle button click events to start, stop, and reset the stopwatch.
+   - Use lifecycle methods to manage the timer interval when the component mounts and unmounts.
+4. **Update Display:** Ensure the elapsed time updates every millisecond while the stopwatch is running.
+
+## Technologies Used
+- **React JS:** For building the stopwatch UI and managing state.
+- **Tailwind CSS:** For basic styling and layout.
+- **JavaScript:** For handling time updates and event management.
+
+## Screenshots
+![Stopwatch App Screenshot](./src//assets/images/stopWatch_desktop.PNG)
+![Stopwatch App Screenshot](./src//assets/images/stopWatch_mobile.PNG)
+
+## Live Link
+[View Live Demo](https://stop-watch-amber-nine.vercel.app/)
+- Experience the stopwatch app in action. Start, stop, and reset the timer as needed.
+
+## Setup Instructions
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/stopwatch-app.git
+
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
